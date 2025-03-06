@@ -1,3 +1,4 @@
+<?php
 namespace App\DTO;
 
 class ClientInfoDTO
