@@ -111,5 +111,8 @@ return [
     */
 
     'password_timeout' => env('AUTH_PASSWORD_TIMEOUT', 10800),
+    'max_active_tokens' => env('MAX_ACTIVE_TOKENS', 5),
+    'expires_in' => env('ACCESS_TOKEN_LIFETIME', 60),
+
 
 ];
